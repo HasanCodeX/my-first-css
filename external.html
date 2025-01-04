@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Properties</title>
+    <style>
+        .none {
+            display: none; /* This will not be visible on the page */
+        }
+
+        .hidden {
+            visibility: hidden; /* The element will be invisible but still take up space */
+        }
+
+        .inline {
+            display: inline; /* The element will flow with the text */
+            background-color: lightblue;
+            padding: 5px;
+        }
+
+        .block {
+            display: block; /* The element will take up the full width */
+            background-color: lightgreen;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        .inline-block {
+            display: inline-block; /* Similar to inline but allows setting height and width */
+            background-color: lightcoral;
+            padding: 10px;
+            margin: 5px;
+        }
+
+        .box-shadow {
+            display: block;
+            background-color: white;
+            padding: 20px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Adding a shadow effect */
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Display and Box-Shadow Example</h1>
+    
+    <p class="none">This text has `display: none` and will not be visible on the page.</p>
+    
+    <p class="hidden">This text has `visibility: hidden` and will take up space but will not be visible.</p>
+    
+    <span class="inline">This is an inline element.</span>
+    <span class="inline">Another inline element.</span>
+    
+    <div class="block">This is a block element. It takes up the full width.</div>
+    
+    <div class="inline-block">This is an inline-block element.</div>
+    <div class="inline-block">Another inline-block element.</div>
+    
+    <div class="box-shadow">This element has a box-shadow applied to it.</div>
+</body>
+</html>
