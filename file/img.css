@@ -1,0 +1,10 @@
+.header {
+    background-image: url('../img/header.jpg');
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Full window height */
+}
